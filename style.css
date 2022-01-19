@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  width: 960px;
+  margin: 50px auto;
+}
+
+.list-content {
+  width: 960px;
+  padding: 20px 0 20px 20px;
+}
+
+.list-content:nth-child(odd) {
+  background: #dcdcdc;
+}
+
+.containers {
+  width: 960px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 40px 5%;
+}
+
+.container1 {
+  width: 30%;
+  height: 200px;
+  background-color: rgb(255, 115, 0);
+}
+
+.container2 {
+  width: 30%;
+  height: 200px;
+  background-color: #ffd900;
+}
